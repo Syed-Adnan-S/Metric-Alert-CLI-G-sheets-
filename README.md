@@ -83,7 +83,7 @@ If everything looks correct, run without --dry-run to send emails.
 ### 2) Config Tab (example rules)
 ![Config Tab Example](assets/config_tab_example.png)
 
-### 3) Resulting HTML Email (after running the script ; 1 of the metrics)
+### 3) Resulting HTML Email (after running the script)
 ![Email Output Example](assets/email_example.png)
 
 ---
