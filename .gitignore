@@ -1,0 +1,5 @@
+venv/
+.env
+alerts.log
+metric_alerts_service_account.json
+__pycache__/
