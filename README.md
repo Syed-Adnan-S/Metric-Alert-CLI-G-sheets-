@@ -32,12 +32,18 @@ A configurable automation tool that:
     venv\Scripts\activate
 3. Install dependencies:
     pip install -r requirements.txt
-4. Create a `.env` file:
+4. Create a `.env` file with the following content:
+
     SHEET_ID=your_sheet_id
+    
     EMAIL_HOST=smtp.gmail.com
+    
     EMAIL_PORT=587
+    
     EMAIL_USER=your_email
+    
     EMAIL_APP_PASSWORD=your_app_password
+    
     EMAIL_SENDER_NAME=Metrics Bot
 
 5. Add your Google service account JSON file.
