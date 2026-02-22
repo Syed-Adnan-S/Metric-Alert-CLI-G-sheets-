@@ -236,16 +236,16 @@ def main(args):
         print("No alerts triggered.")
         return
 
-    # Group alerts by identical recipient lists so each group gets one email
+    # Group alerts by recipient so each person gets ONE email with all relevant triggers
     grouped = {}
     for a in triggered_alerts:
-        key = tuple(a["recipients"])
-        grouped.setdefault(key, []).append(a)
+        for recipient in a["recipients"]:
+            grouped.setdefault(recipient, []).append(a)
 
     now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-    for recipients_key, items in grouped.items():
-        recipients = list(recipients_key)
+    for recipient, items in grouped.items():
+        recipients = [recipient]
 
         subject = f"{args.subject_prefix} {len(items)} trigger(s) detected"
         lines = []
