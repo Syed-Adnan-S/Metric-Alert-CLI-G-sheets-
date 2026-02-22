@@ -40,7 +40,7 @@ No code changes are required — all alert behavior is controlled from the Googl
 
 View-only template (shows required structure):
 
-👉 https://docs.google.com/spreadsheets/d/1e1dZAEHh5SkuMESbV9iQVawx--Lgq5YmOa6WPweIdzM/edit?usp=sharing
+👉 [View Google Sheets Template](https://docs.google.com/spreadsheets/d/1e1dZAEHh5SkuMESbV9iQVawx--Lgq5YmOa6WPweIdzM/edit?usp=sharing)
 
 The template contains:
 
