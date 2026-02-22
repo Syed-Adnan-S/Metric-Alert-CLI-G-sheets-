@@ -75,6 +75,19 @@ If everything looks correct, run without --dry-run to send emails.
 
 ---
 
+## ✅ Working Example
+
+### 1) Latest Tab (example values)
+![Latest Tab Example](assets/latest_tab_example.png)
+
+### 2) Config Tab (example rules)
+![Config Tab Example](assets/config_tab_example.png)
+
+### 3) Resulting HTML Email (after running the script ; 1 of the metrics)
+![Email Output Example](assets/email_example.png)
+
+---
+
 ## 🛠 Setup Instructions
 
 1️⃣ Clone the Repository
